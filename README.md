@@ -1,8 +1,14 @@
 Download & Setup the files on your system
+
 Migrate the database 
+
 Run the project
 
-Commands Use: 
+# Install dependencies (first time setup)
 composer install
+
+# Migrate the database
 php artisan migrate
-php artisan server
+
+# Run the Laravel development server
+php artisan serve
